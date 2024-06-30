@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 72px;
+  background-color: #013fff;
+  display: flex;
+  justify-content: space-betweenx;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 78px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  color: #e6e6e6;
+}
+
+.telegrmm {
+  margin-left: 431px;
+  padding-top: 28px;
+}
+
+.truck {
+  margin-top: 40px;
+}
+
+.reop {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.service {
+  margin-top: 120px;
+}
+
+.service-card {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.service-card-image {
+  width: 426px;
+  height: 320px;
+  background-color: #f2f2f2;
+  border-radius: 24px;
+  padding: 40px 33px;
+}
+
+.service-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+.service-card-content-title {
+  width: 538px;
+  height: 128px;
+  font-size: 64px;
+  line-height: 64px;
+  color: #1a1a1a;
+  font-weight: 400;
+}
+
+.service-card-content-texts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-card-content-texts p {
+  max-width: 654px;
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.team {
+  background-color: #f2f2f2;
+  margin-top: 160px;
+  height: 60vh;
+  max-width: 100%;
+}
+
+.tem {
+  width: 134px;
+  height: 80px;
+  font-size: 80px;
+  line-height: 80px;
+  color: #013fff;
+  padding-top: 40px;
+  margin-bottom: 101px;
+}
+
+.pics {
+  display: flex;
+  gap: 20px;
+}
+.us {
+  width: 479px;
+  height: 80px;
+  font-size: 68px;
+  line-height: 80px;
+  color: #013fff;
+  margin-top: 108px;
+}
